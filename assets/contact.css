@@ -35,16 +35,9 @@ header {
 }
 
 main{
-    height: 600px; 
-    width: 960px;
-    margin: auto;
-    margin-top: 35px;
-    border-color: #dddddd;
-    border-width: 1px;
-    background-color: white;
-    border: solid;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 10px;
+    margin: 100px;
+    background-color: grey;
+    padding: 100px;
 }
 
 html {
