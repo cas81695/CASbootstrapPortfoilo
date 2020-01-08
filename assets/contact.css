@@ -1,0 +1,133 @@
+body {
+    background-color: gray;
+    margin: 0px;
+    background-repeat: repeat;
+}
+
+.navbar {
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: #cccccc;
+    width: 100%;
+}
+
+.navbar-brand {
+    background-color: #4aaaa5;
+    margin-bottom: auto;
+    margin-left: auto;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #cccccc;
+    padding: 10px;
+    
+}
+
+header {
+    height: 60px;
+    overflow: auto;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.navbar-nav {
+    margin-right: auto;
+}
+
+main{
+    height: 600px; 
+    width: 960px;
+    margin: auto;
+    margin-top: 35px;
+    border-color: #dddddd;
+    border-width: 1px;
+    background-color: white;
+    border: solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+html {
+    height: auto;
+}
+
+h1 {
+    color:#4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    margin: 0;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 34px;
+    border-bottom: 5px solid #4aaaa5;
+
+}
+h2 {
+    font-size: 24px;
+}
+a {
+    color: #777777;
+}
+
+.container {
+    height: auto; 
+    width: 960px;
+    margin: auto;
+    margin-top: 35px;
+    border-color: #dddddd;
+    border-width: 1px;
+    background-color: white;
+    border: solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    font-size: large;
+
+}
+
+
+body {
+    margin: 100px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    height: auto;
+    background-color: gray;
+    }
+
+
+footer {
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    font-size:1.5em;
+    line-height:100px;
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+    color: #ffffff;
+    }
+
+ input[type=text], select, textarea {
+        width: 900px; 
+        padding: 12px; 
+        border: 1px solid #ccc;
+        border-radius: 4px; 
+        box-sizing: border-box; 
+        margin-top: 6px; 
+        margin-bottom: 16px; 
+        resize: vertical;
+        padding: 10px;
+    }
+      
+input[type=submit] {
+        background-color: #4aaaa5;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+input[type=submit]:hover {
+        background-color: #4aaaa5;
+    }
