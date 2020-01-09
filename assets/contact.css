@@ -7,7 +7,7 @@
 
 .navbar-header {
     background-color: #4aaaa5;
-    text-align: center;
+    text-align: auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #cccccc;
     padding-left: 20px;
@@ -18,32 +18,21 @@
 }
 
 header {
-    height: 100px;
-    overflow: auto;
+    height: 100%;
     background-color: #ffffff;
     margin-bottom: 30px;
     margin-top: 10px;
     border-bottom: gray;
-    border-width: 10px;
-}
+    border-width: 10px;}
 
-.main-container img {
-    margin-right: 10px;
-    padding: 20px;
-}
-
-p {
-    padding: 5px;
-    margin: auto;
-    
-}
 
 html {
-    height: 960px;
-}
+        position: relative;
+        min-height: 100%;
+    }
 
 h1 {
-    color:#4aaaa5;
+    color: white;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     margin: 0;
     text-align: left;
@@ -93,6 +82,7 @@ footer {
     border-top: 8px solid #4aaaa5;
     background-color: #666666;
     color: #ffffff;
+    position: absolute;
     }
 
  input[type=text], select, textarea {
